@@ -1,2 +1,2 @@
 # first-dev-repo
-First repo as dev in training
+First Spring framework repo as dev in training
