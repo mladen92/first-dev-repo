@@ -1,10 +1,7 @@
 package com.app.controller;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.*;
 
 @Controller
 public class HomeController {
@@ -36,6 +33,24 @@ public class HomeController {
 
     @PostMapping("/spring")
     public String getMappingEx2() {
+        return "home";
+    }
+
+    @GetMapping("/home/{name}")
+    public String pathVariableExample(@PathVariable("name") String name) {
+        System.out.println("Name is: " + name);
+        return "home";
+    }
+
+    @GetMapping("/home/course")
+    public String requestParamEx(@RequestParam("course") String course) {
+        System.out.println("Course is: " + course);
+        return "home";
+    }
+
+    @GetMapping("/course")
+    public String requestParamEx2(@RequestParam(value = "course", required = false, defaultValue = "School") String course) {
+        System.out.println("Course is: " + course);
         return "home";
     }
 }

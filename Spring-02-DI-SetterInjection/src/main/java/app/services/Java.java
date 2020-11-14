@@ -2,10 +2,10 @@ package app.services;
 
 import app.interfaces.Course;
 import app.interfaces.ExtraSessionInterface;
-import lombok.AllArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
-@Setter
+
+@Data
 public class Java implements Course {
     private ExtraSessionInterface extraSessions;
     @Override
