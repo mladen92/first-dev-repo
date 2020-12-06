@@ -12,6 +12,9 @@
         <option value="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-View(Thymeleaf)/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-05-JavaAnnotations-Component/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-05-JavaAnnotations-Autowired/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-05-JavaAnnotations-Qualifier/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-05-Value/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-05-Value/src/main/java/pom.xml" />
       </list>
     </option>
   </component>

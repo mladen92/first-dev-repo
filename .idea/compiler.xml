@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Spring-05-JavaAnnotations-Autowired" />
+        <module name="Spring-05-JavaAnnotation-Value" />
         <module name="Spring-01-SpringContainer" />
         <module name="Spring-03-BeanScope-Singleton-Prototype" />
         <module name="Spring-05-JavaAnnotations-Component" />
@@ -15,6 +16,7 @@
         <module name="Spring-02-DI-SetterInjection" />
         <module name="Spring-08-SpringBoot-MVC-View(Thymeleaf)" />
         <module name="Spring-02-DI-ConstructorInjection" />
+        <module name="Spring-05-JavaAnnotations-Qualifier" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,8 +25,11 @@
       <module name="Spring-02-DI-SetterInjection" target="1.8" />
       <module name="Spring-03-BeanScope-Singleton-Prototype" target="1.8" />
       <module name="Spring-04-BeanLifeCycle-Init-And-Destroy-Method" target="1.8" />
+      <module name="Spring-05-JavaAnnotation-Value" target="1.8" />
       <module name="Spring-05-JavaAnnotations-Autowired" target="1.8" />
       <module name="Spring-05-JavaAnnotations-Component" target="1.8" />
+      <module name="Spring-05-JavaAnnotations-Qualifier" target="1.8" />
+      <module name="Spring-05-Value (1)" target="1.8" />
       <module name="Spring-08-SpringBoot-MVC-Controller" target="1.8" />
       <module name="Spring-08-SpringBoot-MVC-View(Thymeleaf)" target="1.8" />
     </bytecodeTargetLevel>
