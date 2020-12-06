@@ -8,6 +8,8 @@ public class App {
     public static void main(String[] args) {
         ApplicationContext container = new ClassPathXmlApplicationContext("config.xml");
 
-        Course course = container.getBean("java", Java.class);
+        Course course = container.getBean("selenium", Course.class);
+
+        course.getTeachingHours();
     }
 }
