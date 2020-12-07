@@ -1,4 +1,4 @@
-package com.app.app.enums;
+package com.app.enums;
 
 public enum Gender {
     MALE, FEMALE

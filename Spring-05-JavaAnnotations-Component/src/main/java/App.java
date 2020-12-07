@@ -1,7 +1,6 @@
-import interfaces.Course;
+import app.interfaces.Course;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import services.Java;
 
 public class App {
 

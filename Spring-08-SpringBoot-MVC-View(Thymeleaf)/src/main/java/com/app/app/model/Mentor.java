@@ -1,6 +1,6 @@
-package com.app.app.model;
+package com.app.model;
 
-import com.app.app.enums.Gender;
+import com.app.enums.Gender;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -15,6 +15,6 @@ public class Mentor {
     private String firstName;
     private String lastName;
     private int age;
-    private com.app.app.enums.Gender Gender;
+    private com.app.enums.Gender Gender;
 
 }

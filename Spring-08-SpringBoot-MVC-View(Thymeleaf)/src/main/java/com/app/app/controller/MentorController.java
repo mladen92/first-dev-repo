@@ -1,7 +1,7 @@
-package com.app.app.controller;
+package com.app.controller;
 
-import com.app.app.enums.Gender;
-import com.app.app.model.Mentor;
+import com.app.enums.Gender;
+import com.app.model.Mentor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

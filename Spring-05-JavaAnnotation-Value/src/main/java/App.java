@@ -1,4 +1,4 @@
-import interfaces.Course;
+import app.interfaces.Course;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -9,5 +9,6 @@ public class App {
         Course course = container.getBean("java", Course.class);
 
         System.out.println(course.toString());
+        course.getTeachingHours();
     }
 }

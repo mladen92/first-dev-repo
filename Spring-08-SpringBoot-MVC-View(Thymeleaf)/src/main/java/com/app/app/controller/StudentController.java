@@ -1,6 +1,6 @@
-package com.app.app.controller;
+package com.app.controller;
 
-import com.app.app.model.Student;
+import com.app.model.Student;
 import jdk.nashorn.internal.objects.annotations.Getter;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
