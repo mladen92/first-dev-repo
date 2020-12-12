@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/Spring-07-SpringBoot-Demo/Spring-07-SpringBoot-Demo.iml" filepath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/Spring-07-SpringBoot-Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Controller/Spring-08-SpringBoot-MVC-Controller.iml" filepath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Controller/Spring-08-SpringBoot-MVC-Controller.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-08-SpringBoot-MVC-View(Thymeleaf)/Spring-08-SpringBoot-MVC-View(Thymeleaf).iml" filepath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-View(Thymeleaf)/Spring-08-SpringBoot-MVC-View(Thymeleaf).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-09-ORM-tableCreation/Spring-09-ORM-tableCreation.iml" filepath="$PROJECT_DIR$/Spring-09-ORM-tableCreation/Spring-09-ORM-tableCreation.iml" />
     </modules>
   </component>
 </project>
