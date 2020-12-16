@@ -20,6 +20,8 @@
         <option value="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-09-ORM-tableCreation/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-07-SpringBoot-Ioc-DI-Lab/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-09-ORM-Mapping-OneToOne/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-09-ORM-Mapping-ManyToOne/pom.xml" />
       </list>
     </option>
   </component>

@@ -5,8 +5,9 @@ import org.springframework.web.bind.annotation.*;
 
 @Controller
 public class HomeController {
-
-    @RequestMapping("/") // it is slash by default
+static int a ;
+int b ;
+    @RequestMapping     // it is ("/") slash by default
     public String getRequestMapping() {
         return "home";
     }

@@ -1,14 +1,22 @@
 package com.app;
 
-import com.app.controller.HomeController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import javax.annotation.PostConstruct;
+
 @SpringBootApplication
-public class AppApplication {
+public class Orm2Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AppApplication.class, args);
+		SpringApplication.run(Orm2Application.class, args);
 	}
+
+	@PostConstruct
+	public void dataInit() {
+
+	}
+
+
 
 }
