@@ -1,12 +1,13 @@
-package com.app.controller;
+package com.app.app.controller;
 
-import com.app.model.Student;
+import com.app.app.model.Student;
 import jdk.nashorn.internal.objects.annotations.Getter;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 
 @Controller
@@ -15,7 +16,7 @@ public class StudentController {
 
     @GetMapping("/welcome")
     public String homePage(Model model){
-        String name = "John";
+        String name = "Mladen";
         String course = "Java";
         int studentId = 27;
         model.addAttribute("name", name);
@@ -28,7 +29,20 @@ public class StudentController {
         numArr.add(9);
         numArr.add(14);
         model.addAttribute("numbers", numArr);
-        Student student = new Student(studentId, "Mike", "Smith");
+
+        // birthday
+
+        LocalDate birthday = LocalDate.now().minusYears(29);
+        model.addAttribute("birthday", birthday);
+
+
+
+
+
+
+
+
+        Student student = new Student(1, "Mike", "Smith");
         model.addAttribute("student", student);
         return "student/welcome";
     }

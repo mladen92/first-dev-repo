@@ -22,6 +22,8 @@
         <option value="$PROJECT_DIR$/Spring-07-SpringBoot-Ioc-DI-Lab/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-09-ORM-Mapping-OneToOne/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-09-ORM-Mapping-ManyToOne/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-09-ORM-OneToMany/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Form/pom.xml" />
       </list>
     </option>
   </component>
