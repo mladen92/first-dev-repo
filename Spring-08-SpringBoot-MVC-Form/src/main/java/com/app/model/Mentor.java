@@ -1,7 +1,6 @@
 package com.app.model;
 
 import lombok.*;
-import org.springframework.web.bind.annotation.GetMapping;
 
 @NoArgsConstructor
 @AllArgsConstructor
