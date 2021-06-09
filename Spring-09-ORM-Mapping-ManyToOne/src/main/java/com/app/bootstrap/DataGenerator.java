@@ -38,10 +38,10 @@ public class DataGenerator implements CommandLineRunner {
         Department d5 = new Department("Computers", "Electronics");
 
         Region r1 = new Region("America", "USA");
-         Region r2 = new Region("Europa", "Italy");
-         Region r3 = new Region("Africa", "Egipt");
-         Region r4 = new Region("Asia", "Japan");
-         Region r5 = new Region("Australia", "Australia");
+        Region r2 = new Region("Europa", "Italy");
+        Region r3 = new Region("Africa", "Egipt");
+        Region r4 = new Region("Asia", "Japan");
+        Region r5 = new Region("Australia", "Australia");
 
         e1.setDepartment(d1);
         e1.setRegion(r1);

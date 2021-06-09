@@ -15,7 +15,7 @@ import java.util.List;
 public class MentorController {
 
     @GetMapping("/list")
-    public String showTable(Model model){
+    public String showTable(Model model) {
 
         List<Mentor> mentorList = new ArrayList<>();
         mentorList.add(new Mentor("Mike", "Smith", 45, Gender.MALE));
@@ -28,9 +28,6 @@ public class MentorController {
 
         return "mentor/mentor-list";
     }
-
-
-
 
 
 }

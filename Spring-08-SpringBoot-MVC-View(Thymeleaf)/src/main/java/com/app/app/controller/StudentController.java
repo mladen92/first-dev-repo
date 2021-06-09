@@ -15,7 +15,7 @@ import java.util.ArrayList;
 public class StudentController {
 
     @GetMapping("/welcome")
-    public String homePage(Model model){
+    public String homePage(Model model) {
         String name = "Mladen";
         String course = "Java";
         int studentId = 27;
@@ -36,19 +36,13 @@ public class StudentController {
         model.addAttribute("birthday", birthday);
 
 
-
-
-
-
-
-
         Student student = new Student(1, "Mike", "Smith");
         model.addAttribute("student", student);
         return "student/welcome";
     }
 
     @GetMapping("/register")
-    public String homePage2(){
+    public String homePage2() {
 
         return "student/register";
     }

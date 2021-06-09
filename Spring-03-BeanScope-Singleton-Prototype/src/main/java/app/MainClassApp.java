@@ -8,9 +8,9 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class MainClassApp {
 
     public static void main(String[] args) {
-ApplicationContext container = new ClassPathXmlApplicationContext("config.xml");
-Course course1 = container.getBean("javaClass", Java.class);
-Course course2 = container.getBean("javaClass", Java.class);
+        ApplicationContext container = new ClassPathXmlApplicationContext("config.xml");
+        Course course1 = container.getBean("javaClass", Java.class);
+        Course course2 = container.getBean("javaClass", Java.class);
 
         System.out.println(course1 == course2);
         System.out.println("Memory location course 1: " + course1);

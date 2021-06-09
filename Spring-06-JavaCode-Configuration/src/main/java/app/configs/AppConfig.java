@@ -17,12 +17,14 @@ public class AppConfig {
     public Java java() {
         return new Java(officeHours());
     }
+
     @Bean
     public Selenium selenium() {
         return new Selenium();
     }
+
     @Bean
-    public OfficeHours officeHours(){
+    public OfficeHours officeHours() {
         return new OfficeHours();
     }
 

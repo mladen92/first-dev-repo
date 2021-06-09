@@ -13,6 +13,6 @@ public class MainClassApp {
         course1.getTeachingHourse();
 
         System.out.println("Memory location course 1: " + course1);
-        ((ClassPathXmlApplicationContext)container).close();
+        ((ClassPathXmlApplicationContext) container).close();
     }
 }

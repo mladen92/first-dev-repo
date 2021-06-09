@@ -33,7 +33,7 @@ public class DataGenerator implements CommandLineRunner {
         a2.setPerson(p1);
         a3.setPerson(p1);
 
-        addressRepository.saveAll(Arrays.asList(a1,a2,a3));
+        addressRepository.saveAll(Arrays.asList(a1, a2, a3));
         personRepository.save(p1);
     }
 }

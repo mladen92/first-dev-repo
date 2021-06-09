@@ -13,16 +13,16 @@ import java.util.Arrays;
 public class Java implements Course {
 
     public void getTeachingHours() {
-        System.out.println("Teaching java hours: " + 30 );
+        System.out.println("Teaching java hours: " + 30);
     }
 
     @PostConstruct
-    public void postConstruct(){
+    public void postConstruct() {
         System.out.println("executing post construct");
     }
 
     @PreDestroy
-    public void preDestroy(){
+    public void preDestroy() {
         System.out.println("Execute Pre Destroy");
     }
 }

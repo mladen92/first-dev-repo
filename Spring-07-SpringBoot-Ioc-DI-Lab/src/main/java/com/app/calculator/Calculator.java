@@ -19,9 +19,9 @@ public class Calculator {
     @Autowired
     private Floor floor;
 
-    public String getTotalCarpetCost(City city) throws Exception{
+    public String getTotalCarpetCost(City city) throws Exception {
         BigDecimal cost = carpet.getSqFtPrice(city).multiply(floor.getArea());
-        if(cost.compareTo(BigDecimal.ZERO)==0){
+        if (cost.compareTo(BigDecimal.ZERO) == 0) {
             throw new Exception("This city does not exist");
         }
         return "Total cost for carpet: " + cost;

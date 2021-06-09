@@ -13,7 +13,7 @@ public class App {
 
         course.getTeachingHours();
 
-        ((AnnotationConfigApplicationContext)container).close();
+        ((AnnotationConfigApplicationContext) container).close();
 
     }
 }

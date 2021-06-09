@@ -20,7 +20,7 @@ public class Address {
     @ManyToOne(cascade = CascadeType.ALL)
     private Person person;
 
-    public Address( String street, String zipCode) {
+    public Address(String street, String zipCode) {
         this.street = street;
         this.zipCode = zipCode;
     }

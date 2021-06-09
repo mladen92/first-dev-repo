@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class MentorController {
 
     @GetMapping("/show")
-    public String showOne(){
+    public String showOne() {
         return "home";
     }
 }
