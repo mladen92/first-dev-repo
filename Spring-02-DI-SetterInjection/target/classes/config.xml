@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
     <bean id="javaClass" class="app.services.Java">
-        <property name="extraSessions" ref="officeHours"></property>
+        <property name="extraSession" ref="officeHours"></property>
     </bean>
     <bean id="seleniumClass" class="app.services.Selenium">
         <property name="extraSessions" ref="officeHours"></property>
