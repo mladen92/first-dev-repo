@@ -10,7 +10,7 @@ public class MainClassApp {
     public static void main(String[] args) {
         ApplicationContext container = new ClassPathXmlApplicationContext("config.xml");
         Course course1 = container.getBean("javaClass", Java.class);
-        course1.getTeachingHourse();
+        course1.getTeachingHours();
 
         System.out.println("Memory location course 1: " + course1);
         ((ClassPathXmlApplicationContext) container).close();
