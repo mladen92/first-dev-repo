@@ -6,11 +6,14 @@ import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
 public class Java implements Course {
-    ExtraSessionInterface extrSessions;
+    ExtraSessionInterface extraSession;
+    final int hours = 20;
 
     @Override
     public void getTeachingHourse() {
-        System.out.println("Weekly teaching hours: " + (20 + extrSessions.getHours()));
+        System.out.println("Weekly Java teaching hours: " + hours);
+        System.out.println("Weekly Java extra session  hours: " + extraSession.getHours());
+
     }
 }
 
